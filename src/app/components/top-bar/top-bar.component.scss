@@ -1,0 +1,14 @@
+header{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 40px;
+    width: 100vw;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    img {
+        height: 75%;
+        margin-left: 10px;
+    }
+}

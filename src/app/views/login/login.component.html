@@ -1,0 +1,32 @@
+<app-bg-balls></app-bg-balls>
+<div class="wrapper">
+    <div class="main-card card">
+        <div class="header">
+            <h2>Login</h2>
+            <hr>
+        </div>
+        <div class="content">
+            <form [formGroup]="formGroup">
+                <div class="form-group row">
+                    <div class="form-group">
+                        <label for="code">Código</label>
+                        <input class="form-control class-label-login" type="number" id="number" name="code" formControlName="code" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="form-group">
+                        <label for="password">Senha</label>
+                        <input class="form-control class-label-login" type="password" id="password" name="password" formControlName="password" />
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="footer">
+            <button (click)="onLoginClick()" class="btn btn-primary" id="btn-login">Entrar</button>
+        </div>
+    </div>
+</div>
+
+<div id="phrase">
+    <p>Faça o login para entrar na área administrativa <br> e analisar os processos em abertos.</p>
+</div>

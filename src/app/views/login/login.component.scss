@@ -1,0 +1,49 @@
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-card {
+    position: absolute;
+    left: 18%;
+    top: 25%;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px 50px;
+    display: flex;
+    flex-direction: column;
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h2 {
+            font-size: 22px;
+        }
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        button {
+            margin-top: 25px;
+            background-color: #B8860B;
+            border: none;
+        }
+    }
+}
+
+#phrase {
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 20px;
+}
